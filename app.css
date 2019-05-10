@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+	display: list-item;
+	text-align: -webkit-match-parent;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+.default-new-address-modal-zip-text {
+	font-style: italic;
+	padding-left: 10px;
+}
+li.field-zip {
+	display: inline;
+	margin: 0 10px 0 0;
+}
+label {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 20px;
+	cursor: pointer;
+}
+.city-state-section {
+	font-size: 14px;
+	margin-top: 26px;
+}
+body {
+	margin-top: 65px;
+	margin-left: 20px;
+	width: 58.3333333333%;
+	float: left;
+	line-height: 1.428571429;
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+.modal .btn,
+.modal .button {
+	-webkit-font-smoothing: subpixel-antialiased !important;
+}
+@media (min-width: 768px) {
+	.law .prod-mobile-container .btn,
+	.law .main-content-container .btn,
+	.law .modal .btn {
+		white-space: nowrap;
+	}
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.section-header {
+	position: relative;
+	margin: 20px 0;
+	clear: both;
+	border-bottom: 2px solid #d7182a;
+	padding: 0 0 0 80px;
+	-webkit-font-smoothing: antialiased;
+}
+.section-header:before {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-left: 8px solid #d7182a;
+	border-bottom: 13px solid transparent;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 65px;
+}
+.section-header:after {
+	display: block;
+	width: 65px;
+	height: 26px;
+	content: "Step " counter(section);
+	counter-increment: section;
+	padding: 0 3px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0.8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #d7182a;
+	font-family: "Whitney Cond SSm A", "Whitney Cond SSm B", sans-serif;
+	font-size: 18.5px;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #d7182a;
+	font-family: "Whitney Cond SSm A", "Whitney Cond SSm B", sans-serif;
+	font: bold 18px Helvetica, Arial, Geneva, sans-serif;
+	text-transform: capitalize;
+	font-size: 20px;
+	position: relative;
+	font-weight: 600;
+	display: block;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.wine-select label {
+	padding: 5px 0;
+}
+div {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	display: block;
+}
